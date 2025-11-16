@@ -1,6 +1,6 @@
 # Consolidate OneDrive photos into a single folder
 
-## Motivation and Problem
+## Motivation and Problem ...
 -  OneDrive uses many folders to store pictures
 ## Solution
 -  As a OneDrive user
