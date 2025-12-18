@@ -1,8 +1,7 @@
-# test_file_hash_pytest.py
 import hashlib
 import io
 import pytest
-from src.index_images import file_hash   # import your function
+from src.index_images import file_hash   # SUT
 
 @pytest.mark.parametrize("data,algo", [
     (b"hello world", "sha256"),
