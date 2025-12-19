@@ -24,6 +24,21 @@ that they are being moved, and not complain about many files being deleted, prov
 ``` cd (git repo root)  ```  
 ``` cd PythonSandboxAA/FileHandling/src  ```
 
+### Running tests 🔧
+With the project's virtual environment activated (PowerShell):
+```powershell
+& .venv\Scripts\Activate.ps1
+python -m pytest -v
+```
+
+Or run tests directly with the venv Python without activating:
+```powershell
+.venv\Scripts\python.exe -m pytest -v
+# or to display any print values:
+.venv\Scripts\python.exe -m pytest -v -s
+```
+
+
 Example 1: this will read a root_folder "D:/onedrive/Pictures" and move all files found, including in subfolders, to the single folder = "D:/onedrive/stuff/Bucketx", 
 where "Bucketx" is a generated random name  
 ```py FileHandling.py ```  
